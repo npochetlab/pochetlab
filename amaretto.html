@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html zoom=0.67>
+<title>Pochet Lab Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.80, user-scalable=yes">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 180px */
+.w3-sidebar {width: 180px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (180px) */
+#main {margin-left: 180px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147273712-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147273712-1');
+</script>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <img src="nathalie.jpg" style="width:100%">
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="research.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gears w3-xxxlarge"></i>
+    <p>RESEARCH</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="software.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gears fa-spin fa-3x fa-fw w3-xxxlarge "></i>
+    <p>SOFTWARE</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="amaretto.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-gear fa-spin fa-3x fa-fw w3-xxxlarge "></i>
+    <p>*AMARETTO*</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="publications.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-file-text w3-xxxlarge"></i>
+    <p>PUBLICATIONS</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="people.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>PEOPLE</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="research.html" class="w3-bar-item w3-button" style="width:25% !important">RESEARCH</a>
+    <a href="software.html" class="w3-bar-item w3-button" style="width:25% !important">SOFTWARE</a>
+    <a href="amaretto.html" class="w3-bar-item w3-button" style="width:25% !important">*AMARETTO*</a>
+    <a href="publications.html" class="w3-bar-item w3-button" style="width:25% !important">PUBLICATIONS</a>
+    <a href="people.html" class="w3-bar-item w3-button" style="width:25% !important">PEOPLE</a>
+    <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Amaretto Section -->
+  <div class="w3-container w3-padding-32 w3-left w3-black" id="amaretto">
+    <h3 class="w3-text-orange"><B>The &#42;AMARETTO&#42; software toolbox for network biology and medicine</B>: <i><small>multimodal and multiscale circuit-, network-, and graph-based fusion of multi-omics, clinical, imaging, and perturbation data across studies of patients, etiologies and model systems of complex human disease, including cancer, infectious, neurologic and immune-mediated diseases</small></i></h3>
+    <hr style="width:500px" class="w3-opacity">
+    <h4 class="w3-text-aqua"><B>NIH NCI CBIIT ITCR Cancer Data Science Pulse Blog</B></h4><h4 class="w3-text-aqua"><small>Informatics Technology for Cancer Research Program Drives and Fosters Community of Cancer Informatics Researchers: An *AMARETTO Tool Success Story.</small></h4><h5 class="w3-text-teal"><small><B><a href = "https://datascience.cancer.gov/news-events/blog/informatics-technology-cancer-research-program-drives-and-fosters-community-cancer">https://datascience.cancer.gov/news-events/blog/informatics-technology-cancer-research-program-drives-and-fosters-community-cancer</a></B></small></h5>
+    <img src="AMARETTO_FINAL.png" style="width:750px">
+    <h5 class="w3-text-khaki"><small><B>The *AMARETTO software architecture.</B> The *AMARETTO framework provides software tools for network biology and medicine, towards a data-driven platform for diagnostic, prognostic and therapeutic decision-making in cancer. The *AMARETTO platform offers modular and complementary solutions to multimodal and multiscale aspects of network graph-based fusion of multi-omics, clinical, imaging, and driver and drug perturbation data across studies of patients, etiologies and model systems of cancer. Specifically: (<B>1</B>) The AMARETTO algorithm learns networks of regulatory circuits - circuits of drivers and target genes - from functional genomics or multi-omics data and associates these circuits to clinical, molecular and imaging-derived phenotypes within each biological system (e.g., model systems or patients); (<B>2</B>) The Community-AMARETTO algorithm learns subnetworks of regulatory circuits that are shared or distinct across networks derived from multiple biological systems (e.g., model systems and patients, cohorts and individuals, diseases and etiologies, in vitro and in vivo systems); (<B>3</B>) The Perturbation-AMARETTO algorithm maps genetic and chemical perturbations in model systems onto patient-derived networks for driver and drug discovery, respectively, and prioritizes lead drivers, targets and drugs for follow-up with experimental validation; and (<B>4</B>) The Imaging-AMARETTO algorithm maps radiography and histopathology imaging data onto the patient-derived multi-omics networks for non-invasive radiography and histopathology imaging diagnostics.</small></h5>
+    <hr style="width:500px" class="w3-opacity">
+    <h4 class="w3-text-aqua"><B>The &#42;AMARETTO framework in GenePattern Notebook</B></h4><h4 class="w3-text-aqua"><small>The *AMARETTO framework in GenePattern Notebook provides users with a complete analysis pipeline that enables running AMARETTO on one or multiple data cohorts and connecting them using Community-AMARETTO via GenePattern and GenomeSpace.</small></h4><h5 class="w3-text-teal"><small><B>Preview: </B><a href = "https://notebook.genepattern.org/services/sharing/notebooks/334/preview/">https://notebook.genepattern.org/services/sharing/notebooks/334/preview/</a></small></h5><h5 class="w3-text-teal"><small><a href = "https://notebook.genepattern.org/user/amaretto-team/notebooks/The%20*AMARETTO%20framework%20in%20GenePattern%20Notebook.ipynb">https://notebook.genepattern.org/user/amaretto-team/notebooks/The *AMARETTO framework in GenePattern Notebook.ipynb</a></small></h5><h5 class="w3-text-khaki"><small><i>(** Please note that you should login to <a href = "https://notebook.genepattern.org">https://notebook.genepattern.org</a> with your own GenePattern user account, and then search for "<B>The &#42;AMARETTO framework in GenePattern Notebook</B>" in the publicly available Notebooks. This Notebook runs directly on the GenePattern Amazon Cloud servers.)</i></small></h5>
+    <hr style="width:500px" class="w3-opacity">
+    <h4 class="w3-text-aqua"><B>The &#42;AMARETTO framework in R Jupyter Notebook</B></h4><h4 class="w3-text-aqua"><small>The *AMARETTO framework in R Jupyter Notebook provides users with a complete analysis pipeline that enables running AMARETTO on one or multiple data cohorts and connecting them using Community-AMARETTO via GitHub and Bioconductor.</small></h4><h5 class="w3-text-teal"><small><a href = "https://colab.research.google.com/drive/1JfnRoNgTVX_7VEGAAmjGjwP_yX2tdDxs">https://colab.research.google.com/drive/1JfnRoNgTVX_7VEGAAmjGjwP_yX2tdDxs</a></small></h5><h5 class="w3-text-khaki"><small><i>(** Please note that you can run "<B>The &#42;AMARETTO framework in R via GitHub and Bioconductor</B>" directly on Google Colaboratory or your own servers.)</i></small></h5>
+    <hr style="width:500px" class="w3-opacity">
+    <p><h3 class="w3-text-lime"><B>The &#42;AMARETTO&#42; software toolbox for network biology and medicine</B></h3>
+We present &#42;AMARETTO&#42; as a software toolbox for network biology and medicine, towards developing a data-driven platform for diagnostic, prognostic and therapeutic decision-making in complex human disease, including cancer, infectious, neurologic and immune-mediated diseases. &#42;AMARETTO&#42 links diseases, drivers, targets and drugs via fusion of multi-omics, clinical, imaging, and driver and drug perturbation data across studies of patients, etiologies and model systems of complex human disease. Specifically, we are developing AMARETTO-Hub as a Knowledge Graph-based software platform that leverages the &#42;AMARETTO software toolbox that offers modular and complementary solutions to multimodal and multiscale circuit-, network-, and graph-based fusion of multi-omics, clinical, imaging, and perturbation data across studies of patients, etiologies and model systems of complex human disease:<ol><li><B><u>AMARETTO</u></B> learns networks of regulatory circuits - circuits of drivers and their target genes - from functional genomics or multi-omics data and associates these circuits to clinical, molecular, and imaging-derived phenotypes within each biological system (e.g., model systems or patients);</li><li><B><u>Community-AMARETTO</u></B> learns subnetworks of regulatory circuits that are shared or distinct across networks derived from multiple biological systems (e.g., model systems and patients, cohorts and individuals, diseases and etiologies, in vitro and in vivo systems);</li><li><B><u>Imaging-AMARETTO</u></B> maps radiography and histopathology imaging data onto the patient-derived multi-omics networks for imaging diagnostics and prognostics to identify clinically relevant imaging biomarkers and decipher their underlying molecular mechanisms;</li><li><B><u>Perturbation-AMARETTO</u></B> maps genetic and chemical perturbations in model systems onto patient-derived multi-omics networks for driver and drug discovery, respectively, and prioritizes lead drivers, targets and drugs for follow-up with experimental validation;</li><li><B><u>AMARETTO-Hub</u></B> facilitates Knowledge Graph-based embedding of knowledge learned via multimodal and multiscale circuit-, network-, and graph-based data fusion in previous steps, which enables querying and visualizing these complex graph-structured representations in highly sophisticated, efficient, and user-friendly ways.</li></ol></p>
+<p><h3 class="w3-text-lime"><B>Use Cases: applications to studies of complex human disease</B></h3>
+We demonstrate the utility of the AMARETTO-Hub platform and &#42;AMARETTO software tools via several Use Cases integrating multi-omics, clinical, imaging, and driver and drug perturbation data across model systems, etiologies, and patient studies of complex human disease, including cancer, infectious diseases, neurologic and immune-mediated diseases. Our work provides insights into how mapping pharmacogenomic data onto these networks enables to prioritize lead drivers, targets, and drugs for follow-up with experimental validation, towards better diagnostics, prognostics, and therapeutics of complex human disease.
+<p class="w3-text-amber"><B><i>Use Cases</B></i></p>
+<ol>
+<li>A pan-cancer study where we integrated patient multi-omics data across 12 cancer sites from TCGA (BLCA, BRCA, COADREAD, GBM, HNSC, KIRC, LAML, LIHC, LUAD, LUSC, OV and UCEC) to identify novel pan-cancer drivers of smoking-induced cancer and ‘antiviral’ interferon-modulated innate immune response across these cancers that we validated using genetic perturbations in cell lines from LINCS/CMAP. For example, we identified the methylation-driven GPX2 gene as a pan-cancer driver of smoking-induced cancer, and we validated these findings by using knockdown experiments of GPX2 in the LUAD A549 cell line from LINCS/CMAP to confirm that knocking down GPX2 represses GPX2-regulated circuits. (<a href = "https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(17)30472-3/fulltext">EBioMedicine 2018</a>)</li>
+<li>A study of glioblastoma multiforme (GBM) and low-grade glioma (LGG) where we identified drivers of molecular mechanisms associated with clinically relevant radiography and histopathology imaging features, for which we integrated the patient multi-omics and radiography imaging data from the TCGA GBM and TCGA LGG cohorts with the patient transcriptomics refined for cell populations and histopathology imaging data from IvyGAP GBM. We identified known key drivers of tumor-associated microglia and macrophage mechanisms, mediated by STAT3, AHR, and CCR2, and neurodevelopmental and stemness mechanisms, mediated by OLIG2, and we uncovered novel master drivers, THBS1 and MAP2, that establish relationships across these distinct mechanisms. (<a href = "https://ascopubs.org/doi/full/10.1200/CCI.19.00125">Journal of Clinical Oncology - Clinical Cancer Informatics 2020</a>)</li>
+<li>A study of hepatitis B (HBV) and C (HCV) virus-induced hepatocellular carcinoma (LIHC) where we identified drivers and drugs, for which we integrated 6 liver disease data sets (TCGA LIHC patient multi-omics data, CCLE liver cell line multi-omics data, HCV and HBV infection host response time course and single-cell RNA-Seq data in Huh7 and HepG2 cell line models). We predicted drug treatments for chemoprevention of hepatocellular carcinoma of viral and other etiologies, including hepatitis C and B virus-induced cancer, which we did by leveraging chemical perturbation studies combined with host responses to viral infections in single cells. Experimental validation confirmed that two novel predicted compounds indeed attenuate liver fibrosis and cancer development in rats, and thus, potentially offer a safe and low-cost approach for chemoprevention of hepatitis C and B virus-infected patients who are at greater risk of progressing to hepatocellular carcinoma. Inspired by this work, we are developing and enhancing &#42;AMARETTO&#42; for drug discovery. (<a href = "https://www.gastrojournal.org/article/S0016-5085(19)35670-7/fulltext">Gastroenterology 2019</a>, <a href = "https://www.nature.com/articles/s41467-021-25468-9">Nature Communications 2021</a>)</li>
+<li>A pan-cancer study of squamous cell carcinoma (SCC) across five SCC cancer sites from TCGA (LUSC, HNSC, ESCA, CESC and BLCA), for deciphering smoking and human papillomavirus infection as etiologies of SCC, and where we leveraged genetic and chemical perturbations in cell lines from LINCS/CMAP for driver and drug discovery.</li>
+<li>A study of SARS-CoV-2 virus-induced COVID-19 and other viral infections and virus-induced diseases, such as viruses SARS-CoV-2, SARS-CoV, MERS-CoV, RSV, IAV, Ebola, and HIV, and their outcomes, such as COVID-19, ARDS, and sepsis, measured in various tissues, cell types, and single cells, such as lung, blood, intestine, epithelial, and immune cells, as a growing resource where emerging public datasets comprising multi-omics and phenotypic data derived from healthy and diseased tissues and cells in model systems and patient studies are continuously analyzed and integrated</li>
+<li>...</li></ol></p>
+<p class="w3-text-amber"><B><i>Reports with results from Use Cases</B></i></p>
+- Use Case 1: hepatitis C and B virus-induced hepatocellular carcinoma<br>
+HTML Report: <a href = "http://portals.broadinstitute.org/pochetlab/demo/cAMARETTO_Liver_6DS/index.html">http://portals.broadinstitute.org/pochetlab/demo/cAMARETTO_Liver_6DS/index.html</a><br>
+Neo4j/Shiny Report: <a href = "https://pochetlab.shinyapps.io/AMARETTO-Hub_Liver_6DS/">https://pochetlab.shinyapps.io/AMARETTO-Hub_Liver_6DS/</a><br><br>
+- Use Case 2: multi-omics and imaging data fusion in brain cancers<br>
+HTML Report: <a href = "http://portals.broadinstitute.org/pochetlab/JCO_CCI_Imaging-AMARETTO/Imaging-AMARETTO_HTML_Report_TCGA-GBM_IVYGAP-GBM_TCGA-LGG/index.html">http://portals.broadinstitute.org/pochetlab/JCO_CCI_Imaging-AMARETTO/Imaging-AMARETTO_HTML_Report_TCGA-GBM_IVYGAP-GBM_TCGA-LGG/index.html</a><br>
+Neo4j/Shiny Report: <a href = "https://pochetlab.shinyapps.io/AMARETTO-HUB_TCGA-GBM_IVYGAP-GBM_TCGA-LGG/">https://pochetlab.shinyapps.io/AMARETTO-HUB_TCGA-GBM_IVYGAP-GBM_TCGA-LGG/</a><br><br>
+- Use Case 3: pan-squamous cell carcinoma across 5 cancer sites<br>
+HTML Report: <a href = "http://portals.broadinstitute.org/pochetlab/demo/cAMARETTO_PanCancer_5DS/index.html">http://portals.broadinstitute.org/pochetlab/demo/cAMARETTO_PanCancer_5DS/index.html</a><br>
+Neo4j/Shiny Report: <a href = "https://pochetlab.shinyapps.io/AMARETTO-Hub_SCC_5DS/">https://pochetlab.shinyapps.io/AMARETTO-Hub_SCC_5DS/</a><br><br>
+- Use Case 4: SARS-CoV-2 virus-induced COVID-19 (and other viral infections and virus-induced diseases)<br>
+HTML Report: <a href = "http://portals.broadinstitute.org/pochetlab/demo/cAMARETTO_COVID19/index.html">http://portals.broadinstitute.org/pochetlab/demo/cAMARETTO_COVID19/index.html</a><br>
+Neo4j/Shiny Report: <a href = "https://pochetlab.shinyapps.io/COVID19_Hub/">https://pochetlab.shinyapps.io/COVID19_Hub/</a>
+<p><h3 class="w3-text-lime"><B>Availability of software and resources</B></h3>
+The &#42;AMARETTO&#42; software toolbox is available as user-friendly tools via GitHub, Bioconductor and R Jupyter Notebook to enable further algorithm and software development and via GenePattern, GenomeSpace and GenePattern Notebook to reach a broad audience of biomedical researchers. The &#42;AMARETTO&#42; software tools generate results as HTML reports with queryable tables, and heatmap and graph visualizations in an automated manner, and AMARETTO-Hub additionally provides users with Neo4j-embedded Shiny reports that allow users to interactively visualize and interrogate results and that redirect users to the &#42;AMARETTO-generated HTML reports. For each of the Use Cases of complex human diseases, we provide the biomedical research community with R Jupyter Notebook workflows that run the GitHub and Bioconductor repositories on Google Colaboratory, and GenePattern Notebooks that run the GenePattern modules in the Amazon Cloud.
+<p class="w3-text-amber"><B><i>GitHub and Bioconductor R packages</B></i></p>
+- AMARETTO: <a href = "https://bioconductor.org/packages/release/bioc/html/AMARETTO.html">https://bioconductor.org/packages/release/bioc/html/AMARETTO.html<a> and <a href = "https://github.com/gevaertlab/AMARETTO">https://github.com/gevaertlab/AMARETTO</a><br>
+- Community-AMARETTO: <a href = "https://github.com/broadinstitute/CommunityAMARETTO">https://github.com/broadinstitute/CommunityAMARETTO</a><br>
+- Imaging-AMARETTO: <a href = "https://github.com/broadinstitute/ImagingAMARETTO">https://github.com/broadinstitute/ImagingAMARETTO/</a><br>
+- Perturbation-AMARETTO: under development<br>
+- AMARETTO-Hub: under development <a href = "https://github.com/broadinstitute/AMARETTO-Hub">https://github.com/broadinstitute/AMARETTO-Hub</a>
+<p class="w3-text-amber"><B><i>GenePattern modules running on the GenePattern Amazon Cloud servers</B></i></p>
+- AMARETTO: <a href = "https://cloud.genepattern.org/gp/pages/index.jsf?lsid=urn:lsid:broad.mit.edu:cancer.software.genepattern.module.analysis:00378">https://cloud.genepattern.org/gp/pages/index.jsf?lsid=urn:lsid:broad.mit.edu:cancer.software.genepattern.module.analysis:00378</a><br>
+- Community-AMARETTO: <a href = "https://cloud.genepattern.org/gp/pages/index.jsf?lsid=urn:lsid:broad.mit.edu:cancer.software.genepattern.module.analysis:00381">https://cloud.genepattern.org/gp/pages/index.jsf?lsid=urn:lsid:broad.mit.edu:cancer.software.genepattern.module.analysis:00381</a><br>
+- The AMARETTO and Community-AMARETTO modules in GenePattern are also available within GenomeSpace: <a href = "http://www.genomespace.org/">http://www.genomespace.org/</a>
+<p class="w3-text-amber"><B><i>GenePattern Notebook and R Jupyter Notebook</B></i></p>
+The GenePattern Notebook and R Jupyter Notebook provide users with a complete analysis pipeline that enables running AMARETTO on one or multiple data cohorts and connecting them using Community-AMARETTO. Each AMARETTO and Community-AMARETTO analysis generates a detailed report of genome-wide networks inferred from one cohort and/or shared/distinct across multiple cohorts. These reports include queryable tables and visualizations (heatmaps and network graphs) of shared/distinct cell circuits and their drivers, as well as their functional and phenotypic characterizations.<br><br>The GenePattern Notebook runs directly on the GenePattern Amazon Cloud servers.<br><a href = "https://notebook.genepattern.org/services/sharing/notebooks/334/preview/">https://notebook.genepattern.org/services/sharing/notebooks/334/preview/</a><br><a href = "https://notebook.genepattern.org/user/amaretto-team/notebooks/The%20*AMARETTO%20framework%20in%20GenePattern%20Notebook.ipynb">https://notebook.genepattern.org/user/amaretto-team/notebooks/The *AMARETTO framework in GenePattern Notebook.ipynb</a><br><br>The R Jupyter Notebook runs via GitHub or Bioconductor on Google Colaboratory or your own servers.<br><a href = "https://colab.research.google.com/drive/1JfnRoNgTVX_7VEGAAmjGjwP_yX2tdDxs">https://colab.research.google.com/drive/1JfnRoNgTVX_7VEGAAmjGjwP_yX2tdDxs</a>
+<p class="w3-text-amber"><B><i>R Jupyter Notebooks for running Use Cases on Google Colaboratory servers</B></i></p>
+- Use Case 1: hepatitis C and B virus-induced hepatocellular carcinoma<br>
+<a href = "https://colab.research.google.com/drive/17GieTfYriTVlbKchl-OEb5nI_NA2vvjQ">https://colab.research.google.com/drive/17GieTfYriTVlbKchl-OEb5nI_NA2vvjQ</a><br>
+- Use Case 2: multi-omics and imaging data fusion in brain cancers<br>
+<a href = "https://colab.research.google.com/drive/1i9M5vNfLm2VWi6qDkh04Z2lBE4NEc6XP">https://colab.research.google.com/drive/1i9M5vNfLm2VWi6qDkh04Z2lBE4NEc6XP</a><br>
+- Use Case 3: pan-squamous cell carcinoma across 5 cancer sites<br>
+<a href = "https://colab.research.google.com/drive/17RwBxwWWnXJMRI_VZl-X-hztJTwvlFjl">https://colab.research.google.com/drive/17RwBxwWWnXJMRI_VZl-X-hztJTwvlFjl</a>
+<p><h3 class="w3-text-lime"><B>Talks</B></h3>
+Brigham and Women's Hospital / Harvard Medical School meeting, Boston, 2019: <a href = "http://portals.broadinstitute.org/pochetlab/HMS_BWH_seminar_NP.pdf">Slides</a><br>
+Bioconductor meeting, Brussels, 2019: <a href = "http://portals.broadinstitute.org/pochetlab/BioC2019talk.pdf">Slides</a> <a href = "https://github.com/broadinstitute/BioC2020Workshop_AMARETTO-Hub">Workshop</a><br>
+NIH NCI CBIIT webinar, 2019: <a href = "http://portals.broadinstitute.org/pochetlab/NIH_NCI_webinar_abstract_NP.pdf">Abstract</a> <a href = "http://portals.broadinstitute.org/pochetlab/NIH_NCI_webinar_NP.pdf">Slides</a><br>
+NIH NCI ITCR meeting, Salt Lake City, 2019: <a href = "http://portals.broadinstitute.org/pochetlab/AMARETTO_Abstract_ITCR_2019_POCHET.pdf">Abstract</a> <a href = "Pochet_NIH_NCI_ITCR2019_Poster_FINAL_NP.pdf">Poster</a> <a href = "Pochet_NIH_NCI_ITCR2019_Panels_FINAL_NP.pdf">Slides</a><br>
+R/BioC Meetup at Dana-Farber Cancer Institute / Harvard Medical School, Boston, 2019: <a href = "http://portals.broadinstitute.org/pochetlab/HMS_R-BioC-meetup_PochetLab_FINAL.pdf">Slides</a>
+<p><h3 class="w3-text-lime"><B>Publications</B></h3>
+<small>Gevaert O, Nabian M, Bakr S, Everaert C, Shinde J, Manukyan A, Liefeld T, Tabor T, Xu J, Lupberger J, Haas BJ, Baumert TF, Hernaez M, Reich M, Quintana FJ, Uhlmann EJ, Krichevsky AM, Mesirov JP, Carey V, Pochet N. (2020) Imaging-AMARETTO: An Imaging Genomics Software Tool to Interrogate Multiomics Networks for Relevance to Radiography and Histopathology Imaging Biomarkers of Clinical Outcomes. Journal of Clinical Oncology Clinical Cancer Informatics, 4:421-435. PMID: 32383980.<br>
+
+Champion M, Brennan K, Croonenborghs T, Gentles AJ, Pochet N, Gevaert O. (2018) Module Analysis Captures Pancancer Genetically and Epigenetically Deregulated Cancer Driver Genes for Smoking and Antiviral Response. EBioMedicine, 27:156-166. PMID: 29331675.<br>
+
+Gevaert O, Villalobos V, Sikic BI, Plevritis SK. (2014) Identification of ovarian cancer driver genes by using module network integration of multi-omics data. Interface Focus, 3(4):20130013. PMID: 24511378.<br>
+
+Gevaert O, Plevritis S. (2013) Identifying master regulators of cancer and their downstream targets by integrating genomic and epigenomic features. Pacific Symposium on Biocomputing, 2013:123-34. PMID: 23424118.<br></small>
+
+<br><b>Related publications:</b><br>
+
+<small>Crouchet E, Bandiera S, Fujiwara N, Li S, El Saghire H, Fernández-Vaquero M, Riedl T, Sun X, Hirschfield H, Jühling F, Zhu S, Roehlen N, Ponsolles C, Heydmann L, Saviano A, Qian T, Venkatesh A, Lupberger J, Verrier ER, Sojoodi M, Oudot MA, Duong FHT, Masia R, Wei L, Thumann C, Durand SC, González-Motos V, Heide D, Hetzer J, Nakagawa S, Ono A, Song WM, Higashi T, Sanchez R, Kim RS, Bian CB, Kiani K, Croonenborghs T, Subramanian A, Chung RT, Straub BK, Schuppan D, Ankavay M, Cocquerel L, Schaeffer E, Goossens N, Koh AP, Mahajan M, Nair VD, Gunasekaran G, Schwartz ME, Bardeesy N, Shalek AK, Rozenblatt-Rosen O, Regev A, Felli E, Pessaux P, Tanabe KK, Heikenwälder M, Schuster C, Pochet N, Zeisel MB, Fuchs BC, Hoshida Y, Baumert TF. (2021) A human liver cell-based system modeling a clinical prognostic liver signature for therapeutic discovery. Nature Communications, 12(1):5525. PMID: 34535664.<br>
+
+Lupberger J, Croonenborghs T, Roca Suarez AA, Van Renne N, Jühling F, Oudot MA, Virzì A, Bandiera S, Jamey C, Meszaros G, Brumaru D, Mukherji A, Durand SC, Heydmann L, Verrier ER, El Saghire H, Hamdane N, Bartenschlager R, Fereshetian S, Ramberger E, Sinha R, Nabian M, Everaert C, Jovanovic M, Mertins P, Carr SA, Chayama K, Dali-Youcef N, Ricci R, Bardeesy NM, Fujiwara N, Gevaert O, Zeisel MB, Hoshida Y, Pochet N*, Baumert TF*. (2019) Combined Analysis of Metabolomes, Proteomes, and Transcriptomes of Hepatitis C Virus-Infected Cells and Liver to Identify Pathways Associated With Disease Development. Gastroenterology, 157(2):537-551.e9. PMID: 30978357. *contributed equally.<br>
+
+Stubbs BJ, Gopaulakrishnan S, Glass K, Pochet N, Everaert C, Raby B, Carey V. (2019) TFutils: Data structures for transcription factor bioinformatics. F1000 Research, 8:152. PMID: 31297189.<br>
+
+Cedoz PL, Prunello M, Brennan K, Gevaert O. (2018) MethylMix 2.0: an R package for identifying DNA methylation genes. Bioinformatics, 34(17):3044-3046. PMID: 29668835.<br>
+
+Qu K, Garamszegi S, Wu F, Thorvaldsdottir H, Liefeld T, Ocana M, Borges-Rivera D, Pochet N, Robinson JT, Demchak B, Hull T, Ben-Artzi G, Blankenberg D, Barber GP, Lee BT, Kuhn RM, Nekrutenko A, Segal E, Ideker T, Reich M, Regev A, Chang HY, Mesirov JP. (2016) Integrative genomic analysis by interoperation of bioinformatics tools in GenomeSpace. Nature Methods, 13(3):245-247. PMID: 26780094.<br>
+
+Gevaert O, Tibshirani R, Plevritis SK. (2015) Pancancer analysis of DNA methylation-driven genes using MethylMix. Genome Biology, 16(1):17. PMID: 25631659.<br>
+
+Gevaert O. (2015) MethylMix: an R package for identifying DNA methylation-driven genes. Bioinformatics, 31(11):1839-41. PMID: 25609794.<br>
+
+Manolakos A, Ochoa I, Venkat K, Goldsmith AJ, Gevaert O. (2014) CaMoDi: a new method for cancer module discovery. BMC Genomics, 15 Suppl 10:S8. PMID: 25560933.</small>
+
+<p><h3 class="w3-text-lime"><B>Questions?</B></h3>
+For any questions with the <B>&#42;AMARETTO&#42;</B> software toolbox, please contact <B>Nathalie Pochet</B> (<a href = "mailto: npochet@broadinstitute.org">npochet@broadinstitute.org</a>) and <B>Olivier Gevaert</B> (<a href = "mailto: olivier.gevaert@stanford.edu">ogevaert@stanford.edu</a>). See also <a href = "http://med.stanford.edu/gevaertlab.html">gevaertlab.stanford.edu</a> and <a href = "http://med.stanford.edu/gevaertlab/software.html">http://med.stanford.edu/gevaertlab/software.html</a>.
+</p>
+<p><h3 class="w3-text-lime"><B>Funding</B></h3>
+This work was supported by grants from NIH NCI ITCR R21 CA209940 (Pochet), NIH NCI ITCR U01 CA214846 Collaborative Supplement (Carey/Pochet) and NIH NIAID R03 AI131066 (Pochet).
+</p>
+  <!-- End Amaretto Section -->
+  </div>
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>

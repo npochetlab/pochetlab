@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html zoom=0.67>
+<title>Pochet Lab Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.80, user-scalable=yes">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 180px */
+.w3-sidebar {width: 180px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (180px) */
+#main {margin-left: 180px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147273712-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147273712-1');
+</script>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <img src="nathalie.jpg" style="width:100%">
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="research.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-gears w3-xxxlarge"></i>
+    <p>RESEARCH</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="software.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gears fa-spin fa-3x fa-fw w3-xxxlarge "></i>
+    <p>SOFTWARE</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="amaretto.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gear fa-spin fa-3x fa-fw w3-xxxlarge "></i>
+    <p>*AMARETTO*</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="publications.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-file-text w3-xxxlarge"></i>
+    <p>PUBLICATIONS</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="people.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>PEOPLE</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="research.html" class="w3-bar-item w3-button" style="width:25% !important">RESEARCH</a>
+    <a href="software.html" class="w3-bar-item w3-button" style="width:25% !important">SOFTWARE</a>
+    <a href="amaretto.html" class="w3-bar-item w3-button" style="width:25% !important">*AMARETTO*</a>
+    <a href="publications.html" class="w3-bar-item w3-button" style="width:25% !important">PUBLICATIONS</a>
+    <a href="people.html" class="w3-bar-item w3-button" style="width:25% !important">PEOPLE</a>
+    <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Research Section -->
+  <div class="w3-container w3-padding-32 w3-left w3-black" id="research">
+    <h2 class="w3-text-orange"><B>Research</B></h2>
+    <hr style="width:500px" class="w3-opacity">
+    <p>Our goal is to unravel the cellular circuits driving and encoding the molecular basis, function, and regulation of complex biological systems such as human disease. Taking advantage of recent advances in probing and manipulating cellular circuits on a genomic scale, we use the power of computational strategies to analyze and integrate genomic data, thus developing powerful toolboxes for application in human disease.
+    </p>
+    <p>
+    Selected contributions to the development and dissemination of algorithms and software tools and how they have helped advance and overcome challenges in biomedical research for better understanding, diagnosis and treatment of human disease:
+
+    <ol><h3 class="w3-text-lime"><li>*AMARETTO*</h3>
+    <p><B class="w3-text-amber">Publication:</B> Champion M, Brennan K, Croonenborghs T, Gentles AJ, Pochet N, Gevaert O (2018) Module Analysis Captures Genetically and Epigenetically Deregulated Cancer Driver Genes for Smoking and Antiviral Response. bioRxiv 216754. EBioMedicine, 27:156-166.</p>
+    <p><B class="w3-text-amber">Publication:</B> Gevaert O., Nabian M., Bakr S., Everaert C., Shinde J., Manukyan A., Liefeld T., Tabor T., Xu J., Lupberger J., Haas B.J., Baumert T.F., Hernaez M., Reich M., Quintana F.J., Uhlmann E.J., Krichevsky A.M., Mesirov J.P., Carey V., Pochet N. (2020) Imaging-AMARETTO: An Imaging Genomics Software Tool to Interrogate Multiomics Networks for Relevance to Radiography and Histopathology Imaging Biomarkers of Clinical Outcomes. Journal of Clinical Oncology, Clinical Cancer Informatics (JCO CCI), 4:421-435.</p>
+    <p><B class="w3-text-amber">Summary:</B> We present *AMARETTO* as a software toolbox for network biology and medicine, towards developing a data-driven platform for diagnostic, prognostic and therapeutic decision-making in complex human disease, including cancer, infectious, neurologic and immune-mediated diseases. The *AMARETTO* toolbox offers modular and complementary solutions to multimodal and multiscale circuit-, network-, and graph-based fusion of multi-omics, clinical, imaging, and driver and drug perturbation data across studies of patients, etiologies and model systems of complex human disease.
+    <p><B class="w3-text-amber">Repositories/resources:</B><br>
+    <a href="amaretto.html">http://portals.broadinstitute.org/pochetlab/amaretto.html</a><br>
+    <B>NIH NCI CBIIT ITCR Cancer Data Science Pulse Blog:</B> Informatics Technology for Cancer Research Program Drives and Fosters Community of Cancer Informatics Researchers: An *AMARETTO Tool Success Story, <a href="https://datascience.cancer.gov/news-events/blog/informatics-technology-cancer-research-program-drives-and-fosters-community-cancer">https://datascience.cancer.gov/news-events/blog/informatics-technology-cancer-research-program-drives-and-fosters-community-cancer</a><br>
+    <B>Application:</B> Lupberger J., Croonenborghs T., Roca Suarez A.A., Van Renne N., Jühling F., Oudot M.A., Virzì A., Bandiera S., Jamey C., Meszaros G., Brumaru D., Mukherji A., Durand S.C., Heydmann L., Verrier E.R., El Saghire H., Hamdane N., Bartenschlager R., Fereshetian S., Ramberger E., Sinha R., Nabian M., Everaert C., Jovanovic M., Mertins P., Carr S.A., Chayama K., Dali-Youcef N., Ricci R., Bardeesy N.M., Fujiwara N., Gevaert O., Zeisel M.B., Hoshida Y., Pochet N.*, Baumert T.F.*. (2019) Combined Analysis of Metabolomes, Proteomes, and Transcriptomes of HCV-infected Cells and Liver to Identify Pathways Associated With Disease Development. Gastroenterology, 157(2):537-551.e9. *co-last co-corresponding authors.<br>
+    <B>Drug discovery:</B> Crouchet E., Bandiera S., Fujiwara N., Li S., El Saghire H., Fernández-Vaquero M., Riedl T., Sun X., Hirschfield H., Jühling F., Zhu S., Roehlen N., Ponsolles C., Heydmann L., Saviano A., Qian T., Venkatesh A., Lupberger J., Verrier E.R., Sojoodi M., Oudot M.A., Duong F.H.T., Masia R., Wei L., Thumann C., Durand S.C., González-Motos V., Heide D., Hetzer J., Nakagawa S., Ono A., Song W.M., Higashi T., Sanchez R., Kim R.S., Bian C.B., Kiani K., Croonenborghs T., Subramanian A., Chung R.T., Straub B.K., Schuppan D., Ankavay M., Cocquerel L., Schaeffer E., Goossens N., Koh A.P., Mahajan M., Nair V.D., Gunasekaran G., Schwartz M.E., Bardeesy N., Shalek A.K., Rozenblatt-Rosen O., Regev A., Felli E., Pessaux P., Tanabe K.K., Heikenwälder M., Schuster C., Pochet N., Zeisel M.B., Fuchs B.C., Hoshida Y., Baumert T.F. (2021) A human liver cell-based system modeling a clinical prognostic liver signature for therapeutic discovery. Nature Communications, 12(1):5525.</p></li>
+
+    <h3 class="w3-text-lime"><li>Trinity and Trinity CTAT (Cancer Transcriptome Analysis Toolkit)</h3>
+    <p><B class="w3-text-amber">Publication:</B> Haas BJ, Papanicolaou A, Yassour M, Grabherr M, Blood PD, Bowden J, Couger MB, Eccles D, Li B, Lieber M, MacManes MD, Ott M, Orvis J, Pochet N, Strozzi F, Weeks N, Westerman R, William T, Dewey CN, Henschel R, LeDuc RD, Friedman N, Regev A (2013) <i>De novo</i> transcript sequence reconstruction from RNA-Seq using the Trinity platform for reference generation and analysis. Nature Protocols, 8(8):1494-1512.</p>
+    <p><B class="w3-text-amber">Publication:</B> Haas B.J., Dobin A., Li B., Stransky N., Pochet N., Regev A. (2019) Accuracy assessment of fusion transcript detection via read-mapping and <i>de novo</i> fusion transcript assembly-based methods. Genome Biology, 20(1):213.</p>
+    <p><B class="w3-text-amber">Summary:</B> <i>De novo</i> assembly of RNA-seq data enables researchers to study transcriptomes without the need for a genome sequence; this approach can be usefully applied, for instance, in research on 'non-model organisms' of ecological and evolutionary importance, cancer samples or the microbiome. We describe the use of the Trinity platform for genome-independent transcriptome assembly from RNA-seq data in non-model organisms, as well as downstream applications, including transcript abundance estimation, identifying differentially expressed transcripts across samples and approaches to identify protein-coding genes. The Trinity Cancer Transcriptome Analysis Toolkit (CTAT) aims to provide tools for leveraging RNA-Seq to gain insights into the biology of cancer transcriptomes. Bioinformatics tool support is provided for mutation detection, fusion transcript identification, <i>de novo</i> transcript assembly of cancer-specific transcripts, lincRNA classification, and foreign transcript detection (viruses, microbes).</p>
+    <p><B class="w3-text-amber">Repositories/resources:</B><br>
+    Trinity: <a href="http://trinityrnaseq.github.io">http://trinityrnaseq.github.io</a><br>
+    Trinity CTAT: <a href="https://github.com/NCIP/Trinity_CTAT/wiki">https://github.com/NCIP/Trinity_CTAT/wiki</a><br>
+    STAR-Fusion: <a href="https://github.com/STAR-Fusion/STAR-Fusion/wiki">https://github.com/STAR-Fusion/STAR-Fusion/wiki</a><br>
+    Trinity-Fusion: <a href="https://github.com/trinityrnaseq/TrinityFusion/wiki">https://github.com/trinityrnaseq/TrinityFusion/wiki</a><br>
+    <B>Best Performer in the DREAM6 challenge on ‘Alternative Splicing Prediction’ with Team Trinity (Manfred Grabherr, Brian Haas, Moran Yassour, Michael Ott, Nathalie Pochet, Nir Friedman and Aviv Regev)</B><br>
+    Haas B, Dobin A, Stransky N, Li B, Yang X, Tickle T, Bankapur A, Ganote C, Doak T, Pochet N, Sun J, Wu C, Gingeras T, Regev A (2017) STAR-Fusion: Fast and Accurate Fusion Transcript Detection from RNA-Seq. bioRxiv 120295.<br>
+    Ticke T, Bankapur A, Ganote C, Fulton B, Tirosh I, Chen J, Doak T, Henschel R, Pochet N, Wu C, Haas B, Regev A (2016) Trinity CTAT: a community resource for <i>de novo</i> and reference-based RNA-Seq analysis. F1000Research, Poster 2016, 5:1844.</p></li>
+
+    <h3 class="w3-text-lime"><li>GenomeSpace</h3>
+    <p><B class="w3-text-amber">Publication:</B> Qu K, Garamszegi S, Wu F, Thorvaldsdottir H, Liefeld T, Ocana M, Borges-Rivera D, Pochet N, Robinson JT, Demchak B, Hull T, Ben-Artzi G, Blankenberg D, Barber GP, Lee BT, Kuhn RM, Nekrutenko A, Segal E, Ideker T, Reich M, Regev A, Chang HY, Mesirov JP (2016) Integrative genomic analysis by interoperation of bioinformatics tools in GenomeSpace. Nature Methods, 13(3):245-247.</p>
+    <p><B class="w3-text-amber">Summary:</B> Complex biomedical analyses require the use of multiple software tools in concert and remain challenging for much of the biomedical research community. We introduced GenomeSpace, a cloud-based, cooperative community resource that currently supports the streamlined interaction of >20 bioinformatics tools and data resources. To facilitate integrative analysis by non-programmers, it offers a growing set of 'recipes', short workflows to guide investigators through high-utility analysis tasks.</p>
+    <p><B class="w3-text-amber">Repositories/resources:</B><br>
+    GenomeSpace: <a href="http://www.genomespace.org">http://www.genomespace.org</a><br>
+    Tools and data sources: <a href="http://www.genomespace.org/support/tools">http://www.genomespace.org/support/tools</a><br>
+    Analysis recipes: <a href="http://recipes.genomespace.org/">http://recipes.genomespace.org/g</a><br>
+    Reich M, Liefeld T, Ocana M, Jang D, Bistline J, Robinson J, Carr P, Hill B, McLaughlin J, Pochet N, Borges-Rivera D, Tabor T, Thorvaldsdóttir H, Regev A, Mesirov JP (2013) GenomeSpace: an environment for frictionless bioinformatics. F1000Research, Poster 2013, 4:804.</p></li>
+
+    <h3 class="w3-text-lime"><li>SERV (Sequence-Based Estimation of Repeat Variability)</h3>
+    <p><B class="w3-text-amber">Publication:</B> Legendre M*, Pochet N*, Pak T, Verstrepen KJ (2007) Sequence-based estimation of minisatellite and microsatellite repeat variability. Genome Research, 17(12):1787-1796. *contributed equally.</p>
+    <p><B class="w3-text-amber">Summary:</B> Variation in some repeat sequences underlies rapidly evolving traits or certain diseases. We developed a nonlinear model SERV that predicts the variability of a broad range of tandem repeats in a wide range of organisms. SERV outperforms existing models and accurately predicts repeat variability in bacteria and eukaryotes, including plants and humans. SERV allows identification of known and candidate genes involved in repeat-based diseases.</p>
+    <p><B class="w3-text-amber">Repositories/resources:</B><br>
+    Web service: <a href="http://www.igs.cnrs-mrs.fr/SERV/">http://www.igs.cnrs-mrs.fr/SERV/</a><br> Web service previously at: <a href="http://hulsweb1.cgr.harvard.edu/SERV/">http://hulsweb1.cgr.harvard.edu/SERV/</a><br>
+    <B>Fine mapping the causal genetic variant for the rare dominant Mendelian kidney disease MCKD1 using SERV:</B> Kirby A, Gnirke A, Jaffe DB, Barešová V, Pochet N, Blumenstiel B, Ye C, Aird D, Stevens C, Robinson JT, Cabili MN, Gat-Viks I, Kelliher E, Daza R, DeFelice M, Hůlková H, Sovová J, Vylet'al P, Antignac C, Guttman M, Handsaker RE, Perrin D, Steelman S, Sigurdsson S, Scheinman SJ, Sougnez C, Cibulskis K, Parkin M, Green T, Rossin E, Zody MC, Xavier RJ, Pollak MR, Alper SL, Lindblad-Toh K, Gabriel S, Hart PS, Regev A, Nusbaum C, Kmoch S, Bleyer AJ, Lander ES, Daly MJ (2013) Mutations causing medullary cystic kidney disease type 1 lie in a large VNTR in MUC1 missed by massively parallel sequencing. Nature Genetics, 45(3):299-303.<br>
+    <B>Discoveries in the fundamentals of evolution using SERV:</B> Smukalla S*, Caldara M*, Pochet N*, Beauvais A, Guadagnini S, Yan C, Vinces MD, Jansen A, Prevost MC, Latgé JP, Fink GR, Foster KR, Verstrepen KJ (2008) FLO1 is a variable green beard gene that drives biofilm-like cooperation in budding yeast. Cell, 135(4):726-737. *contributed equally.</p></li>
+
+    <h3 class="w3-text-lime"><li>M@CBETH (a MicroArray Classification BEnchmarking Tool on a Host server)</h3>
+    <p><B class="w3-text-amber">Publication:</B> Pochet N, Janssens FAL, De Smet F, Marchal K, Suykens JAK, De Moor BLR (2005) M@CBETH: a microarray classification benchmarking tool. Bioinformatics, 21(14):3185-3186.
+    <p><B class="w3-text-amber">Summary:</B> The M@CBETH web service offers the microarray community a simple tool for making optimal two-class predictions. M@CBETH aims at finding the best prediction among different classification methods by using randomizations of the benchmarking dataset. The M@CBETH web service intends to introduce an optimal use of clinical microarray data classification.
+    <p><B class="w3-text-amber">Repositories/resources:</B><br>
+    <B>Tutorial:</B> <a href="https://ftp.esat.kuleuven.be/sista/npochet/tutorial.pdf">https://ftp.esat.kuleuven.be/sista/npochet/tutorial.pdf</a><br>
+    <B>Web service previously at:</B> <a href="http://www.esat.kuleuven.be/MACBETH/">http://www.esat.kuleuven.be/MACBETH/</a><br>
+    <B>Assessing the role of non-linearity and dimensionality reduction in microarray data classification:</B> Pochet N, De Smet F, Suykens JAK, De Moor BLR. (2004) Systematic benchmarking of microarray data classification: assessing the role of non-linearity and dimensionality reduction. Bioinformatics, 20(17):3185-3195.<br>
+    <B>Conference contribution:</B> Pochet N, Janssens FAL, De Smet F, Marchal K, Vergote IB, Suykens JAK, De Moor BLR (2005) M@CBETH: Optimizing clinical microarray classifcation. Proceedings of the 2005 IEEE Computational Systems Bioinformatics Conference (CSB2005, Stanford), 89-90.</p></li></ol>
+  <!-- End Research Section -->
+  </div>
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
