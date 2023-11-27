@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html zoom=0.67>
+<title>Pochet Lab Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.80, user-scalable=yes">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 180px */
+.w3-sidebar {width: 180px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (180px) */
+#main {margin-left: 180px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147273712-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147273712-1');
+</script>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <img src="nathalie.jpg" style="width:100%">
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="research.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gears w3-xxxlarge"></i>
+    <p>RESEARCH</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="software.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-gears fa-spin fa-3x fa-fw w3-xxxlarge "></i>
+    <p>SOFTWARE</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="amaretto.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gear fa-spin fa-3x fa-fw w3-xxxlarge "></i>
+    <p>*AMARETTO*</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="publications.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-file-text w3-xxxlarge"></i>
+    <p>PUBLICATIONS</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="people.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>PEOPLE</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <img src="colors_rescaled.jpg" style="width:100%">
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="research.html" class="w3-bar-item w3-button" style="width:25% !important">RESEARCH</a>
+    <a href="software.html" class="w3-bar-item w3-button" style="width:25% !important">SOFTWARE</a>
+    <a href="amaretto.html" class="w3-bar-item w3-button" style="width:25% !important">*AMARETTO*</a>
+    <a href="publications.html" class="w3-bar-item w3-button" style="width:25% !important">PUBLICATIONS</a>
+    <a href="people.html" class="w3-bar-item w3-button" style="width:25% !important">PEOPLE</a>
+    <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Software Section -->
+  <div class="w3-container w3-padding-32 w3-left w3-black" id="software">
+    <h2 class="w3-text-orange"><B>Software Tools & Resources</B></h2>
+    <hr style="width:500px" class="w3-opacity">
+<p>Selected contributions to the development and dissemination of algorithms and software tools that have helped advance and overcome challenges in biomedical research for better understanding, diagnosis and treatment of human disease:<br>
+    <ol><h3 class="w3-text-lime"><li>*AMARETTO*</h3>
+    Multimodal and multiscale circuit-, network-, and graph-based fusion of multi-omics, clinical, imaging, and perturbation data across studies of patients, etiologies and model systems of complex human disease, including cancer, infectious, neurologic and immune-mediated diseases (<a href="amaretto.html">http://portals.broadinstitute.org/pochetlab/amaretto.html</a>)
+</li>
+    <h3 class="w3-text-lime"><li>Trinity and Trinity CTAT</h3>
+    <i>De novo</i> transcriptome assembly from RNA sequencing for studying non-model organisms (<a href="http://trinityrnaseq.github.io">http://trinityrnaseq.github.io</a>)<br>
+    Trinity Cancer Transcriptome Analysis Toolkit (CTAT) for deciphering genetic, epigenetic and functional heterogeneity from <i>de novo</i> assembled cancer transcriptomes (<a href="https://github.com/NCIP/Trinity_CTAT/wiki">https://github.com/NCIP/Trinity_CTAT/wiki</a>)
+    <h3 class="w3-text-lime"><li>GenomeSpace</h3>
+    A platform for integrative genomic analysis by interoperation of bioinformatics tools (<a href="http://www.genomespace.org">http://www.genomespace.org</a>)
+</li>
+    <h3 class="w3-text-lime"><li>SERV</h3>
+    A nonlinear model to study the role of variation in tandem repeat sequences from yeast evolution to human disease (<a href="http://www.igs.cnrs-mrs.fr/SERV">http://www.igs.cnrs-mrs.fr/SERV</a>)<br>
+    Multi-species database (<a href="http://www.igs.cnrs-mrs.fr/TandemRepeat">http://www.igs.cnrs-mrs.fr/TandemRepeat</a>)
+</li>
+    <h3 class="w3-text-lime"><li>M@CBETH</h3>
+    A tool for optimal use of clinical microarray data classification to support clinical management decisions (tutorial: <a href="https://ftp.esat.kuleuven.be/sista/npochet/tutorial.pdf">https://ftp.esat.kuleuven.be/sista/npochet/tutorial.pdf</a>, web service previously at: <a href="http://www.esat.kuleuven.be/MACBETH">http://www.esat.kuleuven.be/MACBETH</a>)
+</li></ol>
+</p>
+  <!-- End Software Section -->
+  </div>
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
